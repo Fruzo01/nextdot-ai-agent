@@ -1,0 +1,16 @@
+{
+  "intent": "query",
+  "sentiment": "neutral",
+  "extracted": {
+    "customer_name": null,
+    "issue_type": "product_query",
+    "urgency_level": "Low",
+    "recommended_action": "Schedule a demo to explore AI tool features and discuss WhatsApp integration"
+  },
+  "reply": "Hello, thank you for your interest in our AI tool. We'd be happy to discuss how it can benefit your small business. We offer a free trial, and our tool can be integrated with WhatsApp. Please let us know if you'd like to schedule a demo to learn more.",
+  "reasoning": {
+    "classification_reason": "The message is inquiring about the AI tool and its features, indicating a query intent.",
+    "sentiment_reason": "The tone of the message is neutral, as it's exploratory and doesn't express any strong emotions or concerns.",
+    "tone_choice_reason": "A helpful and informative tone is chosen for the reply, as it matches the neutral sentiment and query intent of the message."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "intent": "complaint",
+  "sentiment": "negative",
+  "extracted": {
+    "customer_name": "Rohan Mehta",
+    "issue_type": "access_issue",
+    "urgency_level": "Critical",
+    "recommended_action": "Investigate and resolve the access issue immediately, and provide a confirmation email to the customer"
+  },
+  "reply": "Dear Rohan Mehta, we apologize for the inconvenience you've experienced with your premium plan. We're taking immediate action to investigate and resolve the access issue. You will receive a confirmation email shortly. If you have any further concerns, please don't hesitate to reach out to us.",
+  "reasoning": {
+    "classification_reason": "The customer explicitly states their dissatisfaction with the service, mentioning that they haven't received any confirmation email or access, which indicates a complaint.",
+    "sentiment_reason": "The customer uses strong language, such as 'absolutely ridiculous' and threatens to dispute the charge, which indicates a negative sentiment. The tone is also urgent, as the customer demands a resolution today.",
+    "tone_choice_reason": "Given the negative sentiment and urgent tone, an apologetic and accountable reply is necessary to address the customer's concerns and show that we're taking immediate action to resolve the issue."
+  }
+}

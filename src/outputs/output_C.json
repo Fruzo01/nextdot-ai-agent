@@ -1,0 +1,16 @@
+{
+  "intent": "feedback",
+  "sentiment": "positive",
+  "extracted": {
+    "customer_name": null,
+    "issue_type": "general",
+    "urgency_level": "Low",
+    "recommended_action": "Continue to provide excellent support and follow up on advanced features"
+  },
+  "reply": "Thank you for taking the time to share your positive experience with our onboarding session. We're thrilled to hear that Priya was helpful and that you're enjoying the tool so far. We're looking forward to delivering the advanced features and continuing to support you.",
+  "reasoning": {
+    "classification_reason": "The message expresses gratitude and appreciation for a recent onboarding session, indicating a positive feedback intent.",
+    "sentiment_reason": "The message uses positive language, such as 'really well done', 'super helpful', and 'working great', to describe the experience.",
+    "tone_choice_reason": "A warm and appreciative tone is chosen for the reply to match the positive sentiment and show gratitude for the customer's feedback."
+  }
+}
