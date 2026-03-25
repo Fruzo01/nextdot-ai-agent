@@ -1,0 +1,31 @@
+# BONUS: Model Comparison (Readable)
+
+import textwrap  # ← you were missing this
+
+def print_result(title, result):
+    print(f"\n================ {title} ================")
+
+    print("\n🔹 Intent & Sentiment")
+    print(f"  → Intent    : {result['intent']}")
+    print(f"  → Sentiment : {result['sentiment']}")
+
+    print("\n🔹 Extracted Info")
+    for k, v in result["extracted"].items():
+        print(f"  → {k.replace('_',' ').title():<18}: {v}")
+
+    print("\n🔹 Reply")
+    print(textwrap.fill(result["reply"], width=70))
+
+    print("\n🔹 Reasoning")
+    print(textwrap.fill(result["reasoning"], width=70))
+
+    print("========================================")
+
+
+agent1 = CustomerAgent("llama-3.3-70b-versatile")
+agent2 = CustomerAgent("llama-3.1-8b-instant")
+
+test_input = inputs["A"]
+
+print_result("MODEL 1 (LLaMA)", agent1.process(test_input))
+print_result("MODEL 2 (Mixtral)", agent2.process(test_input))
